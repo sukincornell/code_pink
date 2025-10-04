@@ -1,0 +1,62 @@
+# Virtual Environment
+venv/
+env/
+.venv/
+*.pyc
+
+# Data and outputs (too large for git)
+outputs/
+data/
+*.npy
+*.npz
+*.h5
+*.hdf5
+*.dcm
+*.dicom
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+temp/
+tmp/
+
+# Model weights (usually large)
+*.pth
+*.pt
+*.ckpt
+*.pkl
+*.model
+*.weights
+
+# Environment variables
+.env
+.env.local
+
+# Cache
+.cache/
+*.cache
